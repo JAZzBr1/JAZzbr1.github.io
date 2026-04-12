@@ -1,7 +1,7 @@
 body {
     front-family: Arial;
     text-aligh: center;
-    background-color: black;
+    background-color: rgb(180, 162, 146);
 }
 /* Header */
 header {
@@ -22,7 +22,7 @@ header {
 button {
   padding: 10px 20px;
   border: none;
-  background: black;
+  background: rgb(180, 162, 146);
   color: black;
   font-weight: bold;
   cursor: pointer;
@@ -30,7 +30,7 @@ button {
 }
 
 button:hover {
-  background: black;
+  background: wheat;
 }
 
 /* Gallery */
@@ -47,7 +47,7 @@ button:hover {
 
 .gallery img:hover {
   transform: scale(1.1);
-}
+  
 
 /* Footer */
 footer {

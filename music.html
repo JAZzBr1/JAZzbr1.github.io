@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Music</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="music.html">Music</a></li>
+  </ul>
+</nav>
+
+<h1>🎵 My Beats</h1>
+
+<div class="player">
+  <h3>Track 1</h3>
+  <audio id="audio1" src="files/music1.mp3"></audio>
+
+  <button onclick="playMusic('audio1')">▶️ Play</button>
+  <button onclick="pauseMusic('audio1')">⏸ Pause</button>
+</div>
+
+<div class="player">
+  <h3>Track 2</h3>
+  <audio id="audio2" src="files/music2.mp3"></audio>
+
+  <button onclick="playMusic('audio2')">▶️ Play</button>
+  <button onclick="pauseMusic('audio2')">⏸ Pause</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

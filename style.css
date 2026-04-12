@@ -1,0 +1,17 @@
+body {
+    front-family: Arial;
+    text-aligh: center;
+    background-color:black
+}
+
+h1 {
+    color: green;
+    
+}
+p {
+    color: green
+}
+
+button {
+    color: green
+}
